@@ -1,4 +1,4 @@
-import module from "./module.def.js"; //模块定义，因为ng-template的输出需要先定义模块；同时import语句必须规划放到最上面。否则会报错。
+import module from "./module.def.js";
 import userServer from './user.server.js';
 import membershipDataCtrl from './membership/membership-data/membership-data.controller.js';
 import membershipDataHtml from './membership/membership-data/membership-data.html';
@@ -56,15 +56,15 @@ import user53 from './membership/blacklist-manage/dialog/blacklist-limit-action.
 
 import user44 from './membership/population-division/crowd-list/crowd-list.controller.js';
 import user45 from './membership/population-division/crowd-list/add-crowd.controller.js';
-import user46 from './membership/component/crowd-card.directive.js';//人群列表卡片
-import user54 from './membership/component/crowd-nav.directive.js';//人群导航
+import user46 from './membership/component/crowd-card.directive.js';
+import user54 from './membership/component/crowd-nav.directive.js';
 
 import user47 from './membership/population-division/population-classification/population-classification.controller.js';
-import user55 from './membership/component/crowd-nav.directive.js';//人群导航
+import user55 from './membership/component/crowd-nav.directive.js';
 
 
 import user48 from './membership/population-division/marketing-log/marketing-log.controller.js';
-import user56 from './membership/component/crowd-nav.directive.js';//人群导航
+import user56 from './membership/component/crowd-nav.directive.js';
 
 import user49 from './goods-discount/single-discount/single-discount.controller.js';
 import user50 from './goods-discount/single-discount/manageGoods.controller.js';
@@ -99,12 +99,12 @@ import userHtml38 from './interests/membership-card/more-card.html';
 import userHtml42 from './membership/blacklist-manage/blacklist-manage.html';
 import userHtml44 from './membership/population-division/crowd-list/crowd-list.html';
 import userHtml45 from './membership/population-division/crowd-list/add-crowd.html';
-import userHtml46 from './membership/component/crowd-card.html';//人群列表卡片
-import userHtml54 from './membership/component/crowd-nav.html';//人群导航
+import userHtml46 from './membership/component/crowd-card.html';
+import userHtml54 from './membership/component/crowd-nav.html';
 import userHtml47 from './membership/population-division/population-classification/population-classification.html';
-import userHtml55 from './membership/component/crowd-nav.html';//人群导航
+import userHtml55 from './membership/component/crowd-nav.html';
 import userHtml48 from './membership/population-division/marketing-log/marketing-log.html';
-import userHtml56 from './membership/component/crowd-nav.html';//人群导航
+import userHtml56 from './membership/component/crowd-nav.html';
 import userHtml49 from './goods-discount/single-discount/single-discount.html';
 import userHtml50 from './goods-discount/single-discount/manageGoods.html';
 import userHtml51 from './goods-discount/single-discount/addGoods.html';
@@ -112,7 +112,7 @@ import userHtml52 from './goods-discount/single-discount/importGoods.html'
 
 import './user.less';
 import './membership/update-pod/update-pod.less';
-import './membership/component/index.less';//人群列表卡片样式
+import './membership/component/index.less';
 import './membership/membership-data/style.less';
 import './membership/blacklist-manage/style.less';
 import './membership/population-division/style.less';
