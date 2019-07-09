@@ -1,5 +1,5 @@
 # ast-transform
-ec迁移代码转换
+项目迁移代码转换
 # 安装依赖
 npm instll
 # 运行
