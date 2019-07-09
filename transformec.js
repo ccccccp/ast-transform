@@ -51,6 +51,10 @@ function waliIn(tree){
       fileName = fileName.replace(/-\w{1}/g,function($1,$2,$3){return $1.slice(1,2).toUpperCase()});
       //controller.js转Ctrl
       fileName = fileName.replace(".controller","Ctrl");
+      // 指令
+      fileName = fileName.replace(".directive","Directive");
+      // 服务
+      fileName = fileName.replace(".service","Service");
       //去除.js
       fileName = fileName.replace(".js","");
       return fileName;
